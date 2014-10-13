@@ -15,7 +15,7 @@ void task_1()
     const int n = 10;
     int a[n];
 }
-#if 0
+
 // Task 2
 void task_2()
 {
@@ -23,8 +23,9 @@ void task_2()
     
     //assert(!a[4]) or assert(a[4]) -- place here one of these and
     //                                 explain your choice in commit msg
+    assert(!a[4]);
 }
-
+#if 0
 // returns zero
 int task_3_zero()
 {
